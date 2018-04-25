@@ -1,0 +1,165 @@
+body {
+  background: url(white-background.jpg) fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid {
+  width: 88%;
+  max-width: 1200px;
+  padding-bottom: 10px;
+}
+
+.top-banner {
+  background-color: aqua;
+  z-index: 3;
+  width: 101%;
+  position: fixed;
+}
+
+.buttons {
+  background-color: darkslategrey;
+  border-color: darkslategrey;
+  margin: auto;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.buttons:hover{
+  background-color: black;
+}
+
+.top-banner {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#buttons-area input {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#name {
+  padding-top: 150px;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.bio-buttons {
+  border-radius: 3px;
+  border-color: darkslategrey;
+  background-color: white;
+  color: black;
+  font-family: fantasy;
+  font-size: 20px;
+  margin: auto;
+  min-width: 110px;
+}
+
+.bio-buttons:hover {
+  background-color: skyblue;
+  border-color: black;
+  color: black;
+}
+
+.bio-buttons-wrapper input{
+  height: 50px;
+}
+
+#bio {
+  text-align: center;
+  font-family: 'Do Hyeon' , fantasy, serif;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.bio {
+  margin-top: 50px;
+}
+
+.bio-wrapper {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.my-projects-wrapper {
+  background-image: url(background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+}
+
+#my-projects-header {
+  font-family: 'Gugi', monospace, serif;
+  color: white;
+  font-size: 35px;
+}
+
+#projects-table {
+  width: 100%;
+  text-align: center;
+}
+
+.table-headers th{
+  text-align: center;
+  width: 33%;
+  color: white;
+  font-size: 20px;
+  font-family: 'raleway', serif; 
+}
+
+.image-rows th{
+  width: 33%;
+  text-align: center;
+}
+
+.image-rows img{
+  width: 90%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.about-me-wrapper {
+  padding-top: 37px;
+  padding-bottom: 65px;
+  background-image: url(color-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#my-info {
+  color: black;
+  font-family: 'Do Hyeon' , fantasy, serif;
+  font-size: 45px;
+}
+
+#p-information {
+  padding-top: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Merriweather', fantasy, serif;
+  font-size: 20px;
+  color: black;
+}
+
+#p-information a{
+  text-decoration: underline;
+}
+
+#close {
+  font-family: 'open sans condensed', monospace, serif;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 50px;
+}
