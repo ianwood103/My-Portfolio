@@ -33,6 +33,10 @@ body {
   padding-right: 20px;
 }
 
+#buttons-area a {
+  text-decoration: none;
+}
+
 #buttons-area input {
   margin-top: 20px;
   margin-right: 20px;
@@ -98,11 +102,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 35px;
+  color: white;
 }
 
 #my-projects-header {
   font-family: 'Gugi', monospace, serif;
-  color: white;
+  color: inherit;
   font-size: 35px;
 }
 
@@ -114,9 +119,9 @@ body {
 .table-headers th{
   text-align: center;
   width: 33%;
-  color: white;
+  color: inherit;
   font-size: 20px;
-  font-family: 'raleway', serif; 
+  font-family: 'raleway', serif;
 }
 
 .image-rows th{
@@ -128,6 +133,11 @@ body {
   width: 90%;
   padding-top: 35px;
   padding-bottom: 35px;
+}
+
+.image-rows a:hover {
+  border-color: purple;
+  border-width: 5px;
 }
 
 .about-me-wrapper {
@@ -159,7 +169,7 @@ body {
 
 #close {
   font-family: 'open sans condensed', monospace, serif;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
   padding-top: 50px;
 }
